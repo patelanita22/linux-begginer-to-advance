@@ -1,0 +1,54 @@
+=================================
+DAY 3 - File Permissions
+================================
+1. Definitation
+- File permissions are the rules that control who can read, write, or execute files and directories in an operating system.
+- In Linux/Unix, they follow a simple model (user, group, others)
+2.  Why permissions are important?
+- Security
+- Multi-user control
+- System protection
+
+3. Types of Users in Linux
+ Owner (u) = The person who created the file.
+ Group (g) = Users in same group
+ Others (o) = Everyone else
+
+4.Three Basic Permissions
+Read (r)    = View file content
+Write (w)   = Modify file
+Execute	(x) = Run file/program
+
+5. Numeric (Octal) Permission System
+  Permission	Value
+   r	          4
+   w	          2
+   x	          1
+
+ Mode	     Meaning
+7 = rwx	     full access
+6 = rw-	     read + write
+5 = r-x	     read + execute
+4 = r--	     read only
+
+drwxr-xr-x 2 anita anita 4096 May 21 22:42 Day-3
+
+First character: file type
+
+where d = directory
+      - = file
+      
+owner   = rwx
+group   = rx
+others  = rx
+
+
+d rwx r-x r-x
+│ │   │   │
+│ │   │   └── Others
+│ │   └────── Group
+│ └────────── Owner
+└──────────── Directory 
+
+
+ 

@@ -1,0 +1,69 @@
+========================
+Linux File Permissions
+========================
+1. File Listing
+ls -l
+# show file permissions
+
+ls -la
+# show hidden files + permissions
+
+2. Change Permissions (chmod)
+
+Symbolic Method
+
+chmod u+x file.sh
+# add execute to owner
+
+chmod g-w file.txt
+# remove write from group
+
+chmod o+r file.txt
+# add read for others
+
+chmod a+r file.txt
+# add read for all
+
+
+Numeric Method
+
+
+chmod 755 file.sh
+# rwx r-x r-x
+
+chmod 644 file.txt
+# rw- r-- r--
+
+chmod 600 secret.txt
+# private file
+
+chmod 777 file.txt
+# full access (not safe)
+
+3. Change Ownership (chown)
+
+chown user1 file.txt
+# change owner
+
+chown user1:group1 file.txt
+# change owner + group
+ 
+4. Change Group (chgrp)
+
+chgrp devteam file.txt
+# change group
+
+5. Directory Permissions
+
+chmod 755 directory
+# full for owner, read+execute for others
+
+chmod 700 directory
+# only owner access
+
+
+
+
+
+
+
