@@ -1,0 +1,184 @@
+============================
+Day-1 Linux Commands
+===========================
+=============================
+DAY 1 - Linux Commands
+=============================
+
+1. pwd
+----------------
+- Shows current working directory
+
+Example:
+pwd
+
+2. ls
+----------------
+- Lists files and folders
+
+Example:
+ls
+
+3. ls -l
+----------------
+- Shows detailed file information
+
+Example:
+ls -l
+
+4. ls -a
+----------------
+- Shows hidden files and folders
+
+Example:
+ls -a
+
+5. cd
+----------------
+- Changes directory
+
+Example:
+cd Documents
+
+6. mkdir
+----------------
+- Creates a new directory
+
+Example:
+mkdir test
+
+7. touch
+----------------
+- Creates a new empty file
+
+Example:
+touch file.txt
+
+8. cat
+----------------
+- Displays file content
+
+Example:
+cat file.txt
+
+9. clear
+----------------
+- Clears terminal screen
+
+Example:
+clear
+
+10. whoami
+----------------
+- Shows current logged-in user
+
+Example:
+whoami
+
+11. date
+----------------
+- Shows current date and time
+
+Example:
+date
+
+
+12. cal
+----------------
+- Shows calendar
+
+Example:
+cal
+
+13. man
+----------------
+- Shows manual/help for commands
+
+Example:
+man ls
+
+14. echo
+----------------
+- Prints text on terminal
+
+Example:
+echo "Hello Linux"
+
+15. hostname
+----------------
+- Shows system hostname
+
+Example:
+hostname
+
+16. uname
+----------------
+- Shows operating system information
+
+Example:
+uname
+
+17. uname -a
+----------------
+- Shows all system information
+
+Example:
+uname -a
+
+18. history
+----------------
+- Shows previously used commands
+
+Example:
+history
+
+19. which
+----------------
+- Shows command location
+
+Example:
+which python
+
+20. mkdir -p
+----------------
+- Creates nested directories
+
+Example:
+mkdir -p project/day1/linux
+
+21. rmdir
+----------------
+- Removes empty directory
+
+Example:
+rmdir test
+
+22. rm
+----------------
+- Removes files
+
+Example:
+rm file.txt
+
+23. rm -r
+----------------
+- Removes directory and contents
+
+Example:
+rm -r test
+
+24. cp
+----------------
+- Copies files or directories
+
+Example:
+cp file1.txt file2.txt
+
+25. mv
+----------------
+- Moves or renames files
+
+Example:
+mv file1.txt newfile.txt
+
+
