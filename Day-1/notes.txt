@@ -1,0 +1,38 @@
+============================
+Day-1 Linux Introduction
+===========================
+
+1. Introduction to Linux Operating System
+---------------------------------------------
+- Linux is an open-source operating system.
+- It is free to use.
+- Linux is secure and stable.
+- Linux is widely used in servers, cloud, and DevOps.
+
+2. Linux History
+-----------------------
+- Linux was developed by Linus Torvalds.
+- Linux was introduced in 1991.
+- Linux is a free and open-source operating system.
+
+3. Features of Linux
+--------------------
+- Multi-user operating system
+- Multi-tasking operating system
+- Secure operating system
+- Fast and stable
+- Command-line support
+
+4. Common Linux Distributions
+-----------------------------
+- Ubuntu
+- CentOS
+- Red Hat
+- Debian
+- Kali Linux
+
+
+
+
+
+
