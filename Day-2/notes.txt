@@ -1,0 +1,54 @@
+=============================
+DAY 2 - Linux File System
+=============================
+
+1. What is File System?
+-----------------------
+- File system is used to organize files and directories in Linux.
+- Everything in Linux is treated as a file.
+
+2. Root Directory (/)
+---------------------
+- Root directory is the top-level directory in Linux.
+- It is represented by /
+
+3. Important Linux Directories
+------------------------------
+
+/home
+- Stores user home directories
+
+/etc
+- Stores configuration files
+
+/var
+- Stores log and variable files
+
+/bin
+- Stores basic user commands
+
+/root
+- Home directory of root user
+
+/tmp
+- Stores temporary files
+
+4. Common File System Commands
+------------------------------
+
+pwd
+- Shows current directory
+
+ls
+- Lists files and directories
+
+cd
+- Changes directory
+
+mkdir
+- Creates new directory
+
+touch
+- Creates new file
+
+

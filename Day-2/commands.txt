@@ -1,0 +1,222 @@
+=============================
+DAY 2 - Linux File System Commands
+=============================
+
+1. pwd
+----------------
+- Shows present working directory
+
+Example:
+pwd
+
+2. ls
+----------------
+- Lists files and directories
+
+Example:
+ls
+
+3. ls -l
+----------------
+- Shows detailed file information
+
+Example:
+ls -l
+
+4. ls -a
+----------------
+- Shows hidden files
+
+Example:
+ls -a
+
+5. cd
+----------------
+- Changes directory
+
+Example:
+cd /home
+
+6. mkdir
+----------------
+- Creates new directory
+
+Example:
+mkdir test
+
+7. rmdir
+----------------
+- Removes empty directory
+
+Example:
+rmdir test
+
+8. touch
+----------------
+- Creates empty file
+
+Example:
+touch file.txt
+
+9. cp
+----------------
+- Copies files and directories
+
+Example:
+cp file1.txt file2.txt
+
+10. mv
+----------------
+- Moves or renames files
+
+Example:
+mv file1.txt newfile.txt
+
+11. rm
+----------------
+- Removes files
+
+Example:
+rm file.txt
+
+12. rm -r
+----------------
+- Removes directory and contents
+
+Example:
+rm -r test
+
+13. cat
+----------------
+- Displays file content
+
+Example:
+cat notes.txt
+
+- Create file with content
+
+Example
+cat > file.txt (overwrite existing file)
+cat >> file.txt (append content)
+
+14. more
+----------------
+- Displays file content page by page
+
+Example:
+more notes.txt
+
+15. less
+----------------
+- Opens large files for reading
+
+Example:
+less notes.txt
+
+16. head
+----------------
+- Shows first lines of file (By default first 10 lines)
+
+Example:
+head notes.txt
+
+17. tail
+----------------
+- Shows last lines of file (By default last 10 lines)
+
+Example:
+tail notes.txt
+
+18. find
+----------------
+- Searches files and directories
+
+Example:
+find /home -name notes.txt
+
+19. locate
+----------------
+- Quickly finds files
+
+Example:
+locate notes.txt
+
+20. which
+----------------
+- Shows command location
+
+Example:
+which python
+
+21. whereis
+----------------
+- Shows command binary and manual location
+
+Example:
+whereis ls
+
+22. file
+----------------
+- Shows file type
+
+Example:
+file notes.txt
+
+23. stat
+----------------
+- Shows detailed file information
+
+Example:
+stat notes.txt
+
+24. tree
+----------------
+- Displays directory structure
+
+Example:
+tree
+
+25. echo
+----------------
+- Prints text on terminal
+
+Example:
+echo "Hello Linux"
+echo "Hello Linux" > file.txt ( overwrite file content)
+echo "Hello Linux" >> file.txt (append file content)
+
+26. clear
+----------------
+- Clears terminal screen
+
+Example:
+clear
+
+
+27. history
+----------------
+- Shows command history
+
+Example:
+history
+
+28. man
+----------------
+- Opens command manual
+
+Example:
+man ls
+
+29. uname
+----------------
+- Shows operating system information
+
+Example:
+uname -a
+
+30. hostname
+----------------
+- Shows system hostname
+
+Example:
+hostname
