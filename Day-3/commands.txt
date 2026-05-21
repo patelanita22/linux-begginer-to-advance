@@ -11,7 +11,6 @@ ls -la
 2. Change Permissions (chmod)
 
 Symbolic Method
-
 chmod u+x file.sh
 # add execute to owner
 
@@ -24,10 +23,7 @@ chmod o+r file.txt
 chmod a+r file.txt
 # add read for all
 
-
 Numeric Method
-
-
 chmod 755 file.sh
 # rwx r-x r-x
 
